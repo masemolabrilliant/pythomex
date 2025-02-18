@@ -1,5 +1,8 @@
-age = int(input("How ol dare you? "))
+#shoping ticket
 
-while age!= 10:
-    print("you are still young")
-    age = int(input("How ol dare you? cm²"))
+item = input("What do you need? ")
+price = float(input(f"How much is one {item} R "))
+quantity = int(input(f"how many {item} do you need? "))
+
+print(f"You bought******"
+      f"{item} R{price} *{quantity} Total R{price*quantity}")
