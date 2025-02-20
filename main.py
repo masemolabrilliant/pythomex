@@ -1,8 +1,5 @@
-#shoping ticket
+import mathr = float(input("Enter radius or diameter: "))
 
-item = input("What do you need? ")
-price = float(input(f"How much is one {item} R "))
-quantity = int(input(f"how many {item} do you need? "))
 
-print(f"You bought******"
-      f"{item} R{price} *{quantity} Total R{price*quantity}")
+Area = round((math.pi*pow(r,2)),2)
+print(f"Area = {Area}")
