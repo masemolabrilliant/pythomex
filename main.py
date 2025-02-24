@@ -1,17 +1,9 @@
-#Calculator
+age = int(input("How old are you? "))
+gender = input("WHat is your gender, (M/F)")
 
-num1 = float(input("Enter your first value: "))
-num2 = float(input("Enter your second value: "))
-operator = input("Enter the operator *,/,-,+ :")
-
-if operator == "+":
-    print(f"Results of {num1} + {num2} = {round(num1+num2)}")
-elif operator == "-":
-    print(f"Results of {num1} - {num2} = {round(num1-num2)}")
-elif operator == "*":
-    print(f"Results of {num1} * {num2} = {round(num1*num2)}")
-elif operator == "/":
-    print(f"Results of {num1} / {num2} = {round(num1/num2,3)}")
+if gender == "F" and age >= 15 :
+    print("You are welcome girl")
+elif gender == "M" and age >= 17:
+    print("You are welcome boy")
 else:
-    print(f"Operator \"{operator}\" invalid")
-c
+    print("For males you must be 17 older for femlane you must be 15 and above")
