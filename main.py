@@ -1,9 +1,8 @@
-age = int(input("How old are you? "))
-gender = input("WHat is your gender, (M/F)")
+#cHECK ODD OR EVEN
 
-if gender == "F" and age >= 15 :
-    print("You are welcome girl")
-elif gender == "M" and age >= 17:
-    print("You are welcome boy")
+num = int(input("Enter the value? "))
+
+if num%2==0:
+    print("The number is even")
 else:
-    print("For males you must be 17 older for femlane you must be 15 and above")
+    print("The number is odd")
