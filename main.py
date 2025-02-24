@@ -1,14 +1,9 @@
 import math
 
-unit=input("what do you have, radius or diameter? ")
+adj = int(input("Enter adjacent? "))
 
-if unit == "radius":
-      r = float(input("what is radius: "))
-      Area = round((math.pi * pow(r, 2)), 2)
-elif unit == "diameter":
-      d = float(input("Enter is diameter: "))
-      r=d/2
-      Area = round((math.pi * pow(r, 2)), 2)
-else:
-      print("Wrong input")
+opp = int(input("Enter opposite? "))
 
+hyp =  math.sqrt(pow(adj,2) + pow(opp,2))
+
+print(f"The hypothenus is {hyp}")
