@@ -1,9 +1,10 @@
-import math
+name= input("What is your name? ")
+birthYear= int(input("What year were you born? "))
+systemStatus = True
+age=2025-birthYear
+if systemStatus:
+    print("the system is Online")
+else name == "":
+    print('Enter you name please')
 
-adj = int(input("Enter adjacent? "))
 
-opp = int(input("Enter opposite? "))
-
-hyp =  math.sqrt(pow(adj,2) + pow(opp,2))
-
-print(f"The hypothenus is {hyp}")
