@@ -1,10 +1,14 @@
-name= input("What is your name? ")
-birthYear= int(input("What year were you born? "))
-systemStatus = True
-age=2025-birthYear
-if systemStatus:
-    print("the system is Online")
-else name == "":
-    print('Enter you name please')
+#Calculator
 
+num1 = float(input("Enter your first value: "))
+num2 = float(input("Enter your second value: "))
+operator = input("Enter the operator *,/,-,+ :")
 
+if operator == "+":
+    print(f"Results of {num1} + {num2} = {num1+num2}")
+elif operator == "-":
+    print(f"Results of {num1} - {num2} = {num1-num2}")
+elif operator == "*":
+    print(f"Results of {num1} * {num2} = {num1*num2}")
+elif operator == "/":
+    print(f"Results of {num1} / {num2} = {num1/num2}")
