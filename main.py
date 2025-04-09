@@ -1,8 +1,19 @@
-#cHECK ODD OR EVEN
+#calculator
 
-num = int(input("Enter the value? "))
+num1,sign, num2= input("Enter fisrt number, sign and second number: ").split()
+num1= float(num1)
+num2 = float(num2)
 
-if num%2==0:
-    print("The number is even")
+if sign=="+":
+    print(f"The sum is : {num1 + num2}")
+elif sign=="-":
+    print(f"Answer is : {num1 - num2}")
+elif sign=="*":
+    print(f"Answer is  : {num1 * num2}")
+elif sign=="/":
+    print(f"Answer is  : {num1 / num2}")
+elif sign=="%":
+    print(f"Answer is  : {num1 % num2}")
 else:
-    print("The number is odd")
+    print(f"invalid operator {sign}")
+
